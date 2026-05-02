@@ -1,99 +1,34 @@
-2026-04-20 17:43:34,026 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 17:43:34,031 - RecoMartIngestion - INFO - RecoMart Data Ingestion Pipeline - Session Started
-2026-04-20 17:43:34,046 - RecoMartIngestion - INFO - Timestamp: 2026-04-20T17:43:34.046724
-2026-04-20 17:43:34,062 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 17:43:34,785 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 17:44:01,405 - RecoMartIngestion - INFO - Catalog 'recomart' is ready
-2026-04-20 17:44:08,277 - RecoMartIngestion - INFO - Schema 'recomart.raw' is ready
-2026-04-20 17:44:08,356 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 17:46:34,527 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 17:46:34,736 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 17:46:34,738 - RecoMartIngestion - INFO - RecoMart Data Ingestion Pipeline - Session Started
-2026-04-20 17:46:34,739 - RecoMartIngestion - INFO - Timestamp: 2026-04-20T17:46:34.739858
-2026-04-20 17:46:34,746 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 17:46:41,211 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 17:46:41,730 - RecoMartIngestion - INFO - Catalog 'recomart' is ready
-2026-04-20 17:46:42,214 - RecoMartIngestion - INFO - Schema 'recomart.raw' is ready
-2026-04-20 17:46:49,108 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 17:46:54,011 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 17:46:54,188 - RecoMartIngestion - INFO - Starting ingestion of user_interactions from /Workspace/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/data/raw/user_interactions/interactions_2026_04.csv
-2026-04-20 17:46:56,498 - RecoMartIngestion - INFO - Successfully ingested 5100 records from user_interactions
-2026-04-20 17:46:56,514 - RecoMartIngestion - INFO - Saving 5100 records to Delta table recomart.raw.user_interactions
-2026-04-20 17:47:21,934 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.user_interactions
-2026-04-20 17:47:27,780 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 17:47:27,931 - RecoMartIngestion - INFO - Starting ingestion of transactions from /Workspace/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/data/raw/transactions/transactions_2026_04.csv
-2026-04-20 17:47:28,031 - RecoMartIngestion - INFO - Successfully ingested 5050 records from transactions
-2026-04-20 17:47:28,038 - RecoMartIngestion - INFO - Saving 5050 records to Delta table recomart.raw.transactions
-2026-04-20 17:47:37,440 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.transactions
-2026-04-20 17:48:31,931 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 17:48:32,142 - RecoMartIngestion - INFO - Starting ingestion of products from /Workspace/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/data/raw/products/products_catalog_2026_04.json
-2026-04-20 17:48:32,226 - RecoMartIngestion - INFO - Successfully ingested 520 records from products
-2026-04-20 17:48:32,231 - RecoMartIngestion - INFO - Saving 520 records to Delta table recomart.raw.products
-2026-04-20 17:48:37,916 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.products
-2026-04-20 17:48:43,142 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 17:48:52,469 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 17:48:52,486 - RecoMartIngestion - INFO - Data Ingestion Pipeline - Session Completed
-2026-04-20 17:48:52,487 - RecoMartIngestion - INFO - Total records ingested: 10,670
-2026-04-20 17:48:52,488 - RecoMartIngestion - INFO - Successful sources: 3/3
-2026-04-20 17:48:52,489 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 18:35:52,972 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 18:35:52,974 - RecoMartIngestion - INFO - RecoMart Data Ingestion Pipeline - Session Started
-2026-04-20 18:35:52,975 - RecoMartIngestion - INFO - Timestamp: 2026-04-20T18:35:52.975302
-2026-04-20 18:35:52,976 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 18:35:53,510 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 18:35:54,276 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 18:36:21,905 - RecoMartIngestion - INFO - Catalog 'recomart' is ready
-2026-04-20 18:36:24,963 - RecoMartIngestion - INFO - Schema 'recomart.raw' is ready
-2026-04-20 18:36:25,318 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 18:36:25,416 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 18:36:25,831 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 18:36:25,996 - RecoMartIngestion - INFO - Starting ingestion of user_interactions from /Workspace/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/data/raw/user_interactions/interactions_2026_04.csv
-2026-04-20 18:36:28,525 - RecoMartIngestion - INFO - Successfully ingested 5100 records from user_interactions
-2026-04-20 18:36:28,534 - RecoMartIngestion - INFO - Saving 5100 records to Delta table recomart.raw.user_interactions
-2026-04-20 18:36:56,867 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.user_interactions
-2026-04-20 18:36:57,250 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 18:36:57,433 - RecoMartIngestion - INFO - Starting ingestion of transactions from /Workspace/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/data/raw/transactions/transactions_2026_04.csv
-2026-04-20 18:36:57,579 - RecoMartIngestion - INFO - Successfully ingested 5050 records from transactions
-2026-04-20 18:36:57,585 - RecoMartIngestion - INFO - Saving 5050 records to Delta table recomart.raw.transactions
-2026-04-20 18:37:07,130 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.transactions
-2026-04-20 18:37:07,406 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 18:37:07,569 - RecoMartIngestion - INFO - Starting ingestion of products from /Workspace/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/data/raw/products/products_catalog_2026_04.json
-2026-04-20 18:37:07,694 - RecoMartIngestion - INFO - Successfully ingested 520 records from products
-2026-04-20 18:37:07,697 - RecoMartIngestion - INFO - Saving 520 records to Delta table recomart.raw.products
-2026-04-20 18:37:13,266 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.products
-2026-04-20 18:37:13,420 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 18:37:23,662 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 18:37:23,664 - RecoMartIngestion - INFO - Data Ingestion Pipeline - Session Completed
-2026-04-20 18:37:23,665 - RecoMartIngestion - INFO - Total records ingested: 10,670
-2026-04-20 18:37:23,665 - RecoMartIngestion - INFO - Successful sources: 3/3
-2026-04-20 18:37:23,666 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 19:04:12,836 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 19:04:12,877 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 19:04:12,878 - RecoMartIngestion - INFO - RecoMart Data Ingestion Pipeline - Session Started
-2026-04-20 19:04:12,880 - RecoMartIngestion - INFO - Timestamp: 2026-04-20T19:04:12.880047
-2026-04-20 19:04:12,880 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 19:04:18,341 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 19:04:19,324 - RecoMartIngestion - INFO - Catalog 'recomart' is ready
-2026-04-20 19:04:19,903 - RecoMartIngestion - INFO - Schema 'recomart.raw' is ready
-2026-04-20 19:04:25,171 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 19:04:30,178 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 19:04:30,366 - RecoMartIngestion - INFO - Starting ingestion of user_interactions from /Workspace/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/data/raw/user_interactions/interactions_2026_04.csv
-2026-04-20 19:04:30,733 - RecoMartIngestion - INFO - Successfully ingested 5100 records from user_interactions
-2026-04-20 19:04:30,743 - RecoMartIngestion - INFO - Saving 5100 records to Delta table recomart.raw.user_interactions
-2026-04-20 19:04:37,471 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.user_interactions
-2026-04-20 19:04:42,996 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 19:04:43,161 - RecoMartIngestion - INFO - Starting ingestion of transactions from /Workspace/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/data/raw/transactions/transactions_2026_04.csv
-2026-04-20 19:04:43,277 - RecoMartIngestion - INFO - Successfully ingested 5050 records from transactions
-2026-04-20 19:04:43,282 - RecoMartIngestion - INFO - Saving 5050 records to Delta table recomart.raw.transactions
-2026-04-20 19:04:48,787 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.transactions
-2026-04-20 19:05:04,099 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 19:05:04,245 - RecoMartIngestion - INFO - Starting ingestion of products from /Workspace/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/data/raw/products/products_catalog_2026_04.json
-2026-04-20 19:05:04,403 - RecoMartIngestion - INFO - Successfully ingested 520 records from products
-2026-04-20 19:05:04,405 - RecoMartIngestion - INFO - Saving 520 records to Delta table recomart.raw.products
-2026-04-20 19:05:06,536 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.products
-2026-04-20 19:05:14,095 - py4j.clientserver - INFO - Received command c on object id p0
-2026-04-20 19:05:20,536 - RecoMartIngestion - INFO - ================================================================================
-2026-04-20 19:05:20,537 - RecoMartIngestion - INFO - Data Ingestion Pipeline - Session Completed
-2026-04-20 19:05:20,537 - RecoMartIngestion - INFO - Total records ingested: 10,670
-2026-04-20 19:05:20,538 - RecoMartIngestion - INFO - Successful sources: 3/3
-2026-04-20 19:05:20,544 - RecoMartIngestion - INFO - ================================================================================
+2026-05-02 14:56:30,462 - RecoMartIngestion - INFO - ================================================================================
+2026-05-02 14:56:30,463 - RecoMartIngestion - INFO - RecoMart Data Ingestion Pipeline - Session Started
+2026-05-02 14:56:30,465 - RecoMartIngestion - INFO - Timestamp: 2026-05-02T14:56:30.465074
+2026-05-02 14:56:30,466 - RecoMartIngestion - INFO - ================================================================================
+2026-05-02 14:56:55,770 - py4j.clientserver - INFO - Received command c on object id p0
+2026-05-02 15:05:53,625 - RecoMartIngestion - INFO - ================================================================================
+2026-05-02 15:05:53,627 - RecoMartIngestion - INFO - RecoMart Data Ingestion Pipeline - Session Started
+2026-05-02 15:05:53,629 - RecoMartIngestion - INFO - Timestamp: 2026-05-02T15:05:53.629340
+2026-05-02 15:05:53,631 - RecoMartIngestion - INFO - ================================================================================
+2026-05-02 15:05:53,925 - py4j.clientserver - INFO - Received command c on object id p0
+2026-05-02 15:05:54,583 - RecoMartIngestion - INFO - Catalog 'recomart' is ready
+2026-05-02 15:05:54,921 - RecoMartIngestion - INFO - Schema 'recomart.raw' is ready
+2026-05-02 15:05:55,037 - py4j.clientserver - INFO - Received command c on object id p0
+2026-05-02 15:05:55,238 - py4j.clientserver - INFO - Received command c on object id p0
+2026-05-02 15:05:55,376 - RecoMartIngestion - INFO - Starting ingestion of user_interactions from /Workspace/Users/2025ae05823@wilp.bits-pilani.ac.in/DM4ML/(Clone) RecoMart_Recommendation_Pipeline/data/raw/user_interactions/interactions_2026_04.csv
+2026-05-02 15:05:55,584 - RecoMartIngestion - INFO - Successfully ingested 5100 records from user_interactions
+2026-05-02 15:05:55,591 - RecoMartIngestion - INFO - Saving 5100 records to Delta table recomart.raw.user_interactions
+2026-05-02 15:06:01,792 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.user_interactions
+2026-05-02 15:06:02,025 - py4j.clientserver - INFO - Received command c on object id p0
+2026-05-02 15:06:02,177 - RecoMartIngestion - INFO - Starting ingestion of transactions from /Workspace/Users/2025ae05823@wilp.bits-pilani.ac.in/DM4ML/(Clone) RecoMart_Recommendation_Pipeline/data/raw/transactions/transactions_2026_04.csv
+2026-05-02 15:06:02,280 - RecoMartIngestion - INFO - Successfully ingested 5050 records from transactions
+2026-05-02 15:06:02,286 - RecoMartIngestion - INFO - Saving 5050 records to Delta table recomart.raw.transactions
+2026-05-02 15:06:08,495 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.transactions
+2026-05-02 15:06:08,754 - py4j.clientserver - INFO - Received command c on object id p0
+2026-05-02 15:06:08,895 - RecoMartIngestion - INFO - Starting ingestion of products from /Workspace/Users/2025ae05823@wilp.bits-pilani.ac.in/DM4ML/(Clone) RecoMart_Recommendation_Pipeline/data/raw/products/products_catalog_2026_04.json
+2026-05-02 15:06:08,992 - RecoMartIngestion - INFO - Successfully ingested 520 records from products
+2026-05-02 15:06:08,995 - RecoMartIngestion - INFO - Saving 520 records to Delta table recomart.raw.products
+2026-05-02 15:06:11,449 - RecoMartIngestion - INFO - Successfully saved data to recomart.raw.products
+2026-05-02 15:06:11,681 - py4j.clientserver - INFO - Received command c on object id p0
+2026-05-02 15:06:18,406 - RecoMartIngestion - INFO - ================================================================================
+2026-05-02 15:06:18,406 - RecoMartIngestion - INFO - Data Ingestion Pipeline - Session Completed
+2026-05-02 15:06:18,407 - RecoMartIngestion - INFO - Total records ingested: 10,670
+2026-05-02 15:06:18,408 - RecoMartIngestion - INFO - Successful sources: 3/3
+2026-05-02 15:06:18,409 - RecoMartIngestion - INFO - ================================================================================
