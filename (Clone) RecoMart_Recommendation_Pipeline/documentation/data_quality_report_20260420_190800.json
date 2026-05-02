@@ -1,0 +1,31 @@
+{
+  "report_date": "2026-04-20T19:08:00.368010",
+  "overall_stats": {
+    "total_sources": 3,
+    "passed": 0,
+    "failed": 0,
+    "total_records": 0,
+    "total_issues": 0,
+    "avg_quality_score": NaN
+  },
+  "source_results": {
+    "user_interactions": {
+      "status": "ERROR",
+      "total_records": 0,
+      "quality_score": 0,
+      "issues": []
+    },
+    "transactions": {
+      "status": "ERROR",
+      "total_records": 0,
+      "quality_score": 0,
+      "issues": []
+    },
+    "products": {
+      "status": "ERROR",
+      "total_records": 0,
+      "quality_score": 0,
+      "issues": []
+    }
+  }
+}

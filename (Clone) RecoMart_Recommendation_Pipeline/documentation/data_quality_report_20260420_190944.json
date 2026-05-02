@@ -1,0 +1,178 @@
+{
+  "report_date": "2026-04-20T19:09:44.506263",
+  "overall_stats": {
+    "total_sources": 3,
+    "passed": 3,
+    "failed": 0,
+    "total_records": 30970,
+    "total_issues": 21,
+    "avg_quality_score": 97.13
+  },
+  "source_results": {
+    "user_interactions": {
+      "status": "PASS",
+      "total_records": 15300,
+      "quality_score": 96.52,
+      "issues": [
+        {
+          "check": "Completeness",
+          "severity": "MEDIUM",
+          "issue": "Column 'user_id' has 243 null values (1.59%)",
+          "count": 243,
+          "column": "user_id"
+        },
+        {
+          "check": "Completeness",
+          "severity": "MEDIUM",
+          "issue": "Column 'item_id' has 243 null values (1.59%)",
+          "count": 243,
+          "column": "item_id"
+        },
+        {
+          "check": "Completeness",
+          "severity": "MEDIUM",
+          "issue": "Column 'timestamp' has 270 null values (1.76%)",
+          "count": 270,
+          "column": "timestamp"
+        },
+        {
+          "check": "Uniqueness",
+          "severity": "HIGH",
+          "issue": "Found 10300 duplicate records (67.32%) based on ['user_id', 'item_id', 'timestamp', 'session_id']",
+          "count": 10300
+        },
+        {
+          "check": "Categorical Validation",
+          "severity": "MEDIUM",
+          "issue": "Column 'device_type' has invalid values: console, smart_tv, desktop (0.86%)",
+          "count": 132,
+          "column": "device_type"
+        }
+      ]
+    },
+    "transactions": {
+      "status": "PASS",
+      "total_records": 15150,
+      "quality_score": 96.24,
+      "issues": [
+        {
+          "check": "Completeness",
+          "severity": "MEDIUM",
+          "issue": "Column 'user_id' has 210 null values (1.39%)",
+          "count": 210,
+          "column": "user_id"
+        },
+        {
+          "check": "Completeness",
+          "severity": "MEDIUM",
+          "issue": "Column 'item_id' has 210 null values (1.39%)",
+          "count": 210,
+          "column": "item_id"
+        },
+        {
+          "check": "Completeness",
+          "severity": "MEDIUM",
+          "issue": "Column 'price' has 183 null values (1.21%)",
+          "count": 183,
+          "column": "price"
+        },
+        {
+          "check": "Uniqueness",
+          "severity": "HIGH",
+          "issue": "Found 10150 duplicate records (67.00%) based on ['transaction_id']",
+          "count": 10150
+        },
+        {
+          "check": "Range Validation",
+          "severity": "HIGH",
+          "issue": "Column 'rating' has 453 values outside range [1, 5] (2.99%)",
+          "count": 453,
+          "column": "rating"
+        },
+        {
+          "check": "Range Validation",
+          "severity": "HIGH",
+          "issue": "Column 'price' has 300 values outside range [0.01, 10000] (2.00%)",
+          "count": 300,
+          "column": "price"
+        },
+        {
+          "check": "Range Validation",
+          "severity": "HIGH",
+          "issue": "Column 'quantity' has 180 values outside range [1, 100] (1.19%)",
+          "count": 180,
+          "column": "quantity"
+        },
+        {
+          "check": "Categorical Validation",
+          "severity": "MEDIUM",
+          "issue": "Column 'payment_method' has invalid values: bitcoin, cash, unknown, cheque (1.27%)",
+          "count": 192,
+          "column": "payment_method"
+        }
+      ]
+    },
+    "products": {
+      "status": "PASS",
+      "total_records": 520,
+      "quality_score": 98.63,
+      "issues": [
+        {
+          "check": "Completeness",
+          "severity": "MEDIUM",
+          "issue": "Column 'product_name' has 9 null values (1.73%)",
+          "count": 9,
+          "column": "product_name"
+        },
+        {
+          "check": "Completeness",
+          "severity": "MEDIUM",
+          "issue": "Column 'category' has 8 null values (1.54%)",
+          "count": 8,
+          "column": "category"
+        },
+        {
+          "check": "Completeness",
+          "severity": "MEDIUM",
+          "issue": "Column 'price' has 8 null values (1.54%)",
+          "count": 8,
+          "column": "price"
+        },
+        {
+          "check": "Uniqueness",
+          "severity": "HIGH",
+          "issue": "Found 20 duplicate records (3.85%) based on ['item_id']",
+          "count": 20
+        },
+        {
+          "check": "Range Validation",
+          "severity": "HIGH",
+          "issue": "Column 'price' has 30 values outside range [0.01, 10000] (5.86%)",
+          "count": 30,
+          "column": "price"
+        },
+        {
+          "check": "Range Validation",
+          "severity": "HIGH",
+          "issue": "Column 'popularity_score' has 41 values outside range [0, 100] (7.88%)",
+          "count": 41,
+          "column": "popularity_score"
+        },
+        {
+          "check": "Range Validation",
+          "severity": "HIGH",
+          "issue": "Column 'sentiment_score' has 35 values outside range [0, 1] (6.73%)",
+          "count": 35,
+          "column": "sentiment_score"
+        },
+        {
+          "check": "Categorical Validation",
+          "severity": "MEDIUM",
+          "issue": "Column 'stock_status' has invalid values: backorder, discontinued, unknown (3.13%)",
+          "count": 16,
+          "column": "stock_status"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "name": "RecoMart_Daily_ML_Pipeline",
+  "email_notifications": {
+    "on_failure": [
+      "2025ae05415@wilp.bits-pilani.ac.in"
+    ],
+    "on_success": [
+      "2025ae05415@wilp.bits-pilani.ac.in"
+    ]
+  },
+  "timeout_seconds": 7200,
+  "max_concurrent_runs": 1,
+  "schedule": {
+    "quartz_cron_expression": "0 0 2 * * ?",
+    "timezone_id": "UTC",
+    "pause_status": "UNPAUSED"
+  },
+  "tasks": [
+    {
+      "task_key": "ingestion",
+      "notebook_task": {
+        "notebook_path": "/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/02_Data_Ingestion/01_Data_Ingestion",
+        "source": "WORKSPACE"
+      },
+      "timeout_seconds": 1800,
+      "max_retries": 2,
+      "min_retry_interval_millis": 300000
+    },
+    {
+      "task_key": "validation",
+      "depends_on": [
+        {
+          "task_key": "ingestion"
+        }
+      ],
+      "notebook_task": {
+        "notebook_path": "/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/04_Data_Validation/02_Data_Validation_Profiling",
+        "source": "WORKSPACE"
+      },
+      "timeout_seconds": 1200,
+      "max_retries": 2
+    },
+    {
+      "task_key": "preparation",
+      "depends_on": [
+        {
+          "task_key": "validation"
+        }
+      ],
+      "notebook_task": {
+        "notebook_path": "/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/05_Data_Preparation/03_Data_Preparation_EDA",
+        "source": "WORKSPACE"
+      },
+      "timeout_seconds": 2700,
+      "max_retries": 2
+    },
+    {
+      "task_key": "features",
+      "depends_on": [
+        {
+          "task_key": "preparation"
+        }
+      ],
+      "notebook_task": {
+        "notebook_path": "/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/06_Feature_Engineering/04_Feature_Engineering_Store",
+        "source": "WORKSPACE"
+      },
+      "timeout_seconds": 3600,
+      "max_retries": 2
+    },
+    {
+      "task_key": "training",
+      "depends_on": [
+        {
+          "task_key": "features"
+        }
+      ],
+      "notebook_task": {
+        "notebook_path": "/Users/2025ae05415@wilp.bits-pilani.ac.in/RecoMart_Recommendation_Pipeline/09_Model_Training/05_Model_Training_Evaluation",
+        "source": "WORKSPACE"
+      },
+      "timeout_seconds": 3600,
+      "max_retries": 2
+    }
+  ],
+  "format": "MULTI_TASK"
+}

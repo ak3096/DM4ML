@@ -1,0 +1,18 @@
+{
+  "rmse": 3.338870907010574,
+  "mae": 3.0169077988327784,
+  "precision_at_10": 0.0026315789473684214,
+  "recall_at_10": 0.016858552631578948,
+  "f1_at_10": 0.004552520541860982,
+  "coverage_percent": 50.2,
+  "train_size": 3749,
+  "test_size": 955,
+  "model_type": "ALS Collaborative Filtering",
+  "hyperparameters": {
+    "rank": 10,
+    "max_iter": 10,
+    "reg_param": 0.1,
+    "alpha": 1.0
+  },
+  "timestamp": "2026-04-20T19:32:02.091508"
+}

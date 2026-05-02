@@ -1,0 +1,82 @@
+2026-04-20 18:38:28,358 - RecoMartValidation - INFO - ================================================================================
+2026-04-20 18:38:28,359 - RecoMartValidation - INFO - RecoMart Data Validation Pipeline - Session Started
+2026-04-20 18:38:28,362 - RecoMartValidation - INFO - Timestamp: 2026-04-20T18:38:28.362078
+2026-04-20 18:38:28,363 - RecoMartValidation - INFO - ================================================================================
+2026-04-20 18:38:29,626 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 18:38:30,064 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 18:38:30,745 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 18:38:32,772 - RecoMartValidation - INFO - Validating 10200 user interaction records
+2026-04-20 18:38:36,001 - RecoMartValidation - WARNING - user_interactions: user_id has 162 nulls
+2026-04-20 18:38:37,881 - RecoMartValidation - WARNING - user_interactions: item_id has 162 nulls
+2026-04-20 18:38:39,339 - RecoMartValidation - WARNING - user_interactions: timestamp has 180 nulls
+2026-04-20 18:38:40,950 - RecoMartValidation - WARNING - user_interactions: 5200 duplicates found
+2026-04-20 18:38:40,975 - RecoMartValidation - ERROR - Error validating user interactions: [NOT_IMPLEMENTED] rdd is not implemented.
+2026-04-20 19:06:57,868 - RecoMartValidation - INFO - ================================================================================
+2026-04-20 19:06:57,907 - RecoMartValidation - INFO - RecoMart Data Validation Pipeline - Session Started
+2026-04-20 19:06:57,932 - RecoMartValidation - INFO - Timestamp: 2026-04-20T19:06:57.932147
+2026-04-20 19:06:57,933 - RecoMartValidation - INFO - ================================================================================
+2026-04-20 19:06:58,737 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:06:59,681 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:07:03,566 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:07:08,051 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:07:12,248 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:07:15,358 - RecoMartValidation - INFO - Validating 15300 user interaction records
+2026-04-20 19:07:16,990 - RecoMartValidation - WARNING - user_interactions: user_id has 243 nulls
+2026-04-20 19:07:18,368 - RecoMartValidation - WARNING - user_interactions: item_id has 243 nulls
+2026-04-20 19:07:19,652 - RecoMartValidation - WARNING - user_interactions: timestamp has 270 nulls
+2026-04-20 19:07:20,771 - RecoMartValidation - WARNING - user_interactions: 10300 duplicates found
+2026-04-20 19:07:20,787 - RecoMartValidation - ERROR - Error validating user interactions: [NOT_IMPLEMENTED] rdd is not implemented.
+2026-04-20 19:07:25,670 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:07:26,576 - RecoMartValidation - INFO - Validating 15150 transaction records
+2026-04-20 19:07:29,435 - RecoMartValidation - WARNING - transactions: user_id has 210 nulls
+2026-04-20 19:07:30,977 - RecoMartValidation - WARNING - transactions: item_id has 210 nulls
+2026-04-20 19:07:32,542 - RecoMartValidation - WARNING - transactions: price has 183 nulls
+2026-04-20 19:07:33,916 - RecoMartValidation - WARNING - transactions: 10150 duplicates found
+2026-04-20 19:07:35,209 - RecoMartValidation - WARNING - transactions: rating has 453 out-of-range values
+2026-04-20 19:07:36,379 - RecoMartValidation - WARNING - transactions: price has 300 out-of-range values
+2026-04-20 19:07:37,846 - RecoMartValidation - WARNING - transactions: quantity has 180 out-of-range values
+2026-04-20 19:07:37,848 - RecoMartValidation - ERROR - Error validating transactions: [NOT_IMPLEMENTED] rdd is not implemented.
+2026-04-20 19:07:42,329 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:07:43,022 - RecoMartValidation - INFO - Validating 520 product records
+2026-04-20 19:07:45,107 - RecoMartValidation - WARNING - products: product_name has 9 nulls
+2026-04-20 19:07:45,943 - RecoMartValidation - WARNING - products: category has 8 nulls
+2026-04-20 19:07:46,912 - RecoMartValidation - WARNING - products: price has 8 nulls
+2026-04-20 19:07:48,020 - RecoMartValidation - WARNING - products: 20 duplicates found
+2026-04-20 19:07:49,065 - RecoMartValidation - WARNING - products: price has 30 out-of-range values
+2026-04-20 19:07:50,052 - RecoMartValidation - WARNING - products: popularity_score has 41 out-of-range values
+2026-04-20 19:07:51,092 - RecoMartValidation - WARNING - products: sentiment_score has 35 out-of-range values
+2026-04-20 19:07:51,095 - RecoMartValidation - ERROR - Error validating products: [NOT_IMPLEMENTED] rdd is not implemented.
+2026-04-20 19:08:00,337 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:08:00,435 - RecoMartValidation - INFO - ================================================================================
+2026-04-20 19:08:00,436 - RecoMartValidation - INFO - Data Validation Pipeline - Session Completed
+2026-04-20 19:08:00,437 - RecoMartValidation - INFO - Total issues found: 0
+2026-04-20 19:08:00,438 - RecoMartValidation - INFO - Average quality score: nan
+2026-04-20 19:08:00,439 - RecoMartValidation - INFO - ================================================================================
+2026-04-20 19:08:46,472 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:08:50,633 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:08:51,349 - RecoMartValidation - INFO - Validating 15300 user interaction records
+2026-04-20 19:08:52,588 - RecoMartValidation - WARNING - user_interactions: user_id has 243 nulls
+2026-04-20 19:08:53,728 - RecoMartValidation - WARNING - user_interactions: item_id has 243 nulls
+2026-04-20 19:08:54,832 - RecoMartValidation - WARNING - user_interactions: timestamp has 270 nulls
+2026-04-20 19:08:56,108 - RecoMartValidation - WARNING - user_interactions: 10300 duplicates found
+2026-04-20 19:08:59,060 - RecoMartValidation - WARNING - user_interactions: device_type has invalid values {'console', 'smart_tv', 'desktop'}
+2026-04-20 19:09:03,367 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:09:04,006 - RecoMartValidation - INFO - Validating 15150 transaction records
+2026-04-20 19:09:06,743 - RecoMartValidation - WARNING - transactions: user_id has 210 nulls
+2026-04-20 19:09:07,676 - RecoMartValidation - WARNING - transactions: item_id has 210 nulls
+2026-04-20 19:09:08,781 - RecoMartValidation - WARNING - transactions: price has 183 nulls
+2026-04-20 19:09:09,799 - RecoMartValidation - WARNING - transactions: 10150 duplicates found
+2026-04-20 19:09:11,032 - RecoMartValidation - WARNING - transactions: rating has 453 out-of-range values
+2026-04-20 19:09:12,257 - RecoMartValidation - WARNING - transactions: price has 300 out-of-range values
+2026-04-20 19:09:13,464 - RecoMartValidation - WARNING - transactions: quantity has 180 out-of-range values
+2026-04-20 19:09:15,579 - RecoMartValidation - WARNING - transactions: payment_method has invalid values {'bitcoin', 'cash', 'unknown', 'cheque'}
+2026-04-20 19:09:21,245 - py4j.clientserver - INFO - Received command c on object id p0
+2026-04-20 19:09:21,851 - RecoMartValidation - INFO - Validating 520 product records
+2026-04-20 19:09:23,497 - RecoMartValidation - WARNING - products: product_name has 9 nulls
+2026-04-20 19:09:24,224 - RecoMartValidation - WARNING - products: category has 8 nulls
+2026-04-20 19:09:25,126 - RecoMartValidation - WARNING - products: price has 8 nulls
+2026-04-20 19:09:25,999 - RecoMartValidation - WARNING - products: 20 duplicates found
+2026-04-20 19:09:26,843 - RecoMartValidation - WARNING - products: price has 30 out-of-range values
+2026-04-20 19:09:27,599 - RecoMartValidation - WARNING - products: popularity_score has 41 out-of-range values
+2026-04-20 19:09:28,504 - RecoMartValidation - WARNING - products: sentiment_score has 35 out-of-range values
+2026-04-20 19:09:29,697 - RecoMartValidation - WARNING - products: stock_status has invalid values {'backorder', 'discontinued', 'unknown'}
